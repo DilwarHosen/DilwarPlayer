@@ -84,7 +84,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6127476417:AAECB4VHSoQZglzCxgR7bsJaGNW6ah0yCGI"
 STRING_SESSION = getenv("STRING_SESSION", "BQFpyqoAVPEZ0SdQVeVNyf048yzNzsj9nk1pfX7zwnpAuwqysBryyclsgTNXsT7bjkB95lTUg9OeGC74ZoXqy9y08qccAexEUQXmaOjDkzEtRVoKsv_HrU7T1pP92rKuJFADJLKmzTltRPodqQEbjSleIJXTJBUWoDK8pKS9SCrK1lnsTB3MI-Qk5yzx_YIeq5l1q0N7AnFKYIrbcm6MxcOEtrsjznpPaKHQH8jLyeQjLvudl7RIreQV0tzJSTf1zdRvAyQl3eQMpgwMv6SwxiduxVPprDorLrfaVRKW6ppN-WPUPI0rtwkUfwci6JGfYvjgy37vXmUM4zeTwI_ItFJ0iXk5jgAAAAG0Yy8hAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002372770070"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001603822916"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg")
 
 
