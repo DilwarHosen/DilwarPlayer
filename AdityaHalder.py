@@ -78,14 +78,14 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 25625520))
-API_HASH = getenv("API_HASH", "b8d327b196bae9b4c72e93a7395b8f05")
-BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAGlmIebMfd5CRi4T94u7hEfkQA6YO1ruFg")
-STRING_SESSION = getenv("STRING_SESSION", "BQFpyqoAVPEZ0SdQVeVNyf048yzNzsj9nk1pfX7zwnpAuwqysBryyclsgTNXsT7bjkB95lTUg9OeGC74ZoXqy9y08qccAexEUQXmaOjDkzEtRVoKsv_HrU7T1pP92rKuJFADJLKmzTltRPodqQEbjSleIJXTJBUWoDK8pKS9SCrK1lnsTB3MI-Qk5yzx_YIeq5l1q0N7AnFKYIrbcm6MxcOEtrsjznpPaKHQH8jLyeQjLvudl7RIreQV0tzJSTf1zdRvAyQl3eQMpgwMv6SwxiduxVPprDorLrfaVRKW6ppN-WPUPI0rtwkUfwci6JGfYvjgy37vXmUM4zeTwI_ItFJ0iXk5jgAAAAG0Yy8hAA")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
-OWNER_ID = int(getenv("OWNER_ID", 7552579717))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001603822916))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/s7iujk.jpg")
+API_ID = int(getenv("API_ID", 0))
+API_HASH = getenv("API_HASH", None)
+BOT_TOKEN = getenv("BOT_TOKEN", None)
+STRING_SESSION = getenv("STRING_SESSION", None)
+MONGO_DB_URL = getenv("MONGO_DB_URL", None)
+OWNER_ID = int(getenv("OWNER_ID", 0))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+START_IMAGE_URL = getenv("START_IMAGE_URL", None)
 
 
 # Memory Database
