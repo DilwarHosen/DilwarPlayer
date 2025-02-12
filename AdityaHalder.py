@@ -78,14 +78,15 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", 0))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-START_IMAGE_URL = getenv("START_IMAGE_URL", None)
+API_ID = int(getenv("API_ID", "23710378"))
+API_HASH = getenv("API_HASH", "a5ebe1fd8ae5715a9eb2a9364001189a")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAF5v58Y_0nBw_VW41cQGzS4EGH695-gcfA
+")
+STRING_SESSION = getenv("STRING_SESSION", "BQFpyqoAVPEZ0SdQVeVNyf048yzNzsj9nk1pfX7zwnpAuwqysBryyclsgTNXsT7bjkB95lTUg9OeGC74ZoXqy9y08qccAexEUQXmaOjDkzEtRVoKsv_HrU7T1pP92rKuJFADJLKmzTltRPodqQEbjSleIJXTJBUWoDK8pKS9SCrK1lnsTB3MI-Qk5yzx_YIeq5l1q0N7AnFKYIrbcm6MxcOEtrsjznpPaKHQH8jLyeQjLvudl7RIreQV0tzJSTf1zdRvAyQl3eQMpgwMv6SwxiduxVPprDorLrfaVRKW6ppN-WPUPI0rtwkUfwci6JGfYvjgy37vXmUM4zeTwI_ItFJ0iXk5jgAAAAG0Yy8hAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001603822916"))
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg")
 
 
 # Memory Database
